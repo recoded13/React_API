@@ -67,5 +67,8 @@ console.log('Ocurrió un error:', error);
 * Youtube
 * Mi compañera Yue.
 
+## modificaciones posteriores
+
+* Añadido loading tv, animación cuando doy boton actualizar. Aunque no consigo que sea mas transparente.
 
 
