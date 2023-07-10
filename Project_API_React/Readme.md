@@ -34,6 +34,7 @@ https://restcountries.com/
 * Ser ha modificado varias veces el pop up, funcionaba fatal. Así que hemos modificado a un **Pop us** con info hacia abajo. Mas fácil y intuitivo. 
 * Añadido botón **cerrar** para cerrar bien los pop
 * Contiene CSS para diseño de varias pantallas y dispositivos.
+* La búsqueda se centra en los 25 países cargados actualmente, no otros que yo pudiera elegir. (Sin solución)
 
 
 ## Modificar número de países
