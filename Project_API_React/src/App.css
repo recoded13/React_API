@@ -1,0 +1,137 @@
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  .app {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 767px) {
+  .app {
+    padding: 10px;
+  }
+
+  .flag-card {
+    flex: 0 0 50%;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .app {
+    padding: 5px;
+  }
+
+  .flag-card {
+    flex: 0 0 100%;
+  }
+}
+
+/* Estilos generales */
+body {
+  background-color: #091540;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #091540;
+  color: #ffffff;
+}
+
+h1 {
+  color: #2f89ff;
+}
+
+.flag-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flag-card {
+  flex: 0 0 20%;
+  background-color: #153368;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.flag-card img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.flag-card h2 {
+  margin-top: 10px;
+}
+
+.flag-card:hover img {
+  filter: brightness(1.5);
+}
+
+.flag-card:hover .overlay {
+  opacity: 1;
+}
+
+
+
+button {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 20px;
+  padding: 1px 1px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+/* Otros estilos según tus necesidades */
